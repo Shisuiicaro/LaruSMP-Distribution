@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///C:/Users/gnarn/Documents/Seometria%20Midia/comission%20launcher/launcher/Laru-nebula/distro/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "<LINK TO RSS FEED>",
+    "discord": {
+      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    }
+  }
+}

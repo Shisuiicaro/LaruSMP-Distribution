@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/gnarn/Documents/Seometria%20Midia/comission%20launcher/launcher/Laru-nebula/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Laru_SMP (Minecraft 1.19.2)",
+    "description": "Laru_SMP Running Minecraft 1.19.2 (Forge v43.3.7)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "43.3.7"
+  },
+  "untrackedFiles": []
+}

@@ -1,0 +1,2448 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Laru_SMP-1.19.2",
+      "name": "Laru_SMP (Minecraft 1.19.2)",
+      "description": "Laru_SMP Running Minecraft 1.19.2 (Forge v43.3.7)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.3.7",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7375,
+            "MD5": "73ce4013b3c94f1203119214006b7f6d",
+            "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.3.7/lowcodelanguage-1.19.2-43.3.7.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.3.7",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15497,
+                "MD5": "82c2a21d23cb4a89aa285e0995e66808",
+                "url": "https://github.com/Shisuiicaro/repo/versions/1.19.2-forge-43.3.7/1.19.2-forge-43.3.7.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.3.7",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 113640,
+                "MD5": "7932b3da47e48efbe8d6c5382278d638",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.3.7/fmlcore-1.19.2-43.3.7.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.3.7",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16492,
+                "MD5": "c4e9c149428cd720120f4ebf47f32a9c",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.3.7/javafmllanguage-1.19.2-43.3.7.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.3.7",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4984,
+                "MD5": "9d9ef280b327e0f09380aa95aa837d18",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.3.7/mclanguage-1.19.2-43.3.7.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.7:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2644229,
+                "MD5": "587ea88ef7d81ec2f6b7a11dca80eda3",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/forge/1.19.2-43.3.7/forge-1.19.2-43.3.7-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.7:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5417627,
+                "MD5": "e0e2d0442224c2e811ad02f5f32991d9",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/forge/1.19.2-43.3.7/forge-1.19.2-43.3.7-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://github.com/Shisuiicaro/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://github.com/Shisuiicaro/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://github.com/Shisuiicaro/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://github.com/Shisuiicaro/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://github.com/Shisuiicaro/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://github.com/Shisuiicaro/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.3.7",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261212,
+                "MD5": "7ce1c0a9df055da981fe1a26411ca6d0",
+                "url": "https://github.com/Shisuiicaro/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.3.7/fmlloader-1.19.2-43.3.7.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.geforcemods:securitycraft:1.9.6.1@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3664060,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/[1.19.2]+SecurityCraft+v1.9.6.1.jar",
+            "MD5": "9a8f703f40223bdd8eff9f0d1d6fda84"
+          }
+        },
+        {
+          "id": "com.choicetheorem.imstn:imst_n:1.0.0a@jar",
+          "name": "Immersive Structures:Nether edition",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101011,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/[Universal]Immersive_Structure_Nether_v1.0.0b.jar",
+            "MD5": "6cf91e767990857205580ce1439737ba"
+          }
+        },
+        {
+          "id": "earth.terrarium:ad_astra:1.12.7@jar",
+          "name": "Ad Astra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10492498,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ad_astra-forge-1.19.2-1.12.7.jar",
+            "MD5": "ea1264083a4d91a8dba87e057c952d4f"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.21.1@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25655463,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/alexsmobs-1.21.1.jar",
+            "MD5": "0ba48ab00c965c7acaa061d0844d9f17"
+          }
+        },
+        {
+          "id": "net.stardustlabs:amplified_nether:1.2@jar",
+          "name": "Amplified Nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 193414,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Amplified_Nether_v1.2.jar",
+            "MD5": "4124f35190d223d9e46c56c7e2d24e11"
+          }
+        },
+        {
+          "id": "net.mcreator.animalistica:animalistic_a:1.1.0@jar",
+          "name": "Animalistic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2908339,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Animalistic_mod_1.1.0_1.19.2.jar",
+            "MD5": "665bd19b75188446b4455775f97b4981"
+          }
+        },
+        {
+          "id": "shadows.apotheosis:apotheosis:6.4.1@jar",
+          "name": "Apotheosis",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2247992,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Apotheosis-1.19.2-6.4.1.jar",
+            "MD5": "97304c2ba8cd503a7fc210d94c619d41"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.2+mc1.19@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46991,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/appleskin-forge-mc1.19-2.4.2.jar",
+            "MD5": "3cd43c763f6e9a244a115606faaecf4f"
+          }
+        },
+        {
+          "id": "com.obscuria:aquamirae:6.API15@jar",
+          "name": "Aquamirae",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17322001,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/aquamirae-6.API15.jar",
+            "MD5": "09675c402ee56c2db06f97f71d46698e"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:6.5.85@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 546188,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/architectury-6.5.85-forge.jar",
+            "MD5": "8c8a7412575f897356823b928a5b8ca7"
+          }
+        },
+        {
+          "id": "com.hollingsworth.arsnouveau:ars_nouveau:3.22.2@jar",
+          "name": "Ars Nouveau",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14551070,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ars_nouveau-1.19.2-3.22.2.jar",
+            "MD5": "0c4d90939fa202e30f3984b23f35fb68"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:1.19.2-5.0.4@jar",
+          "name": "Artifacts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601729,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/artifacts-1.19.2-5.0.4.jar",
+            "MD5": "514466bab723901edb33f7c5fed3691f"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.8.2-55@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45741,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/AutoRegLib-1.8.2-55.jar",
+            "MD5": "8d0cfc46ea0c7334ff511eff2bb3e9ce"
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:awesomedungeonnether:3.1.1@jar",
+          "name": "Awesome dungeon nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 234927,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/awesomedungeonnether-forge-1.19.2-3.1.1.jar",
+            "MD5": "bdb4a403e60359624be680536fb6f31b"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:4.6.0@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 314084,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/balm-forge-1.19.2-4.6.0.jar",
+            "MD5": "009bdfde01e742c98cfe71babbd58fce"
+          }
+        },
+        {
+          "id": "wily.betterfurnaces:betterfurnacesreforged:1.1.2@jar",
+          "name": "Better Furnaces Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 485319,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/BetterFurnaces-1.19.2-1.1.2-forge.jar",
+            "MD5": "5bb76f8c849ea315755b362bde8705ab"
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:bettervillage:3.1.0@jar",
+          "name": "Better village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2013339,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/bettervillage-forge-1.19.2-3.2.0.jar",
+            "MD5": "353ccc4d4d34e5e1d888baa4ea144ba2"
+          }
+        },
+        {
+          "id": "mod.pianomanu:blockcarpentry:1.19.2-0.3.1.3@jar",
+          "name": "BlockCarpentry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3641969,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/blockcarpentry-1.19.2-0.3.1.3.jar",
+            "MD5": "bdc158522e3319f68a0ea591511fa884"
+          }
+        },
+        {
+          "id": "net.mcreator.borninchaosv:born_in_chaos_v1:1.0.0@jar",
+          "name": "Born in Chaos ",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10265127,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/born_in_chaos_[Forge]1.19.2_1.10.1.jar",
+            "MD5": "47eb62fe469375cc716f0b4d9ba4afc0"
+          }
+        },
+        {
+          "id": "earth.terrarium:botarium:1.8.2@jar",
+          "name": "Botarium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 110494,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/botarium-forge-1.19.2-1.8.2.jar",
+            "MD5": "1fe74bba345c2507f858da4a8379e35f"
+          }
+        },
+        {
+          "id": "com.izofar:bygonenether:1.3.2@jar",
+          "name": "Bygone Nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7675614,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/bygonenether-1.3.2-1.19.2.jar",
+            "MD5": "6cbd76a839df0a2ec0828ae8f74f69a7"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:1.19.2-3.0.0.6@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37254,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/caelus-forge-1.19.2-3.0.0.6.jar",
+            "MD5": "918f8c78474edc74a7b489b803124492"
+          }
+        },
+        {
+          "id": "de.maxhenkel:camera:1.19.2-1.0.6@jar",
+          "name": "Camera Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 294851,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/camera-1.19.2-1.0.6.jar",
+            "MD5": "1210d32ee2fb68c1adeb836abc202acb"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.1.21@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 440293,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/carryon-forge-1.19.2-2.1.1.21.jar",
+            "MD5": "963943bc7f7851b1b310a26c9ecbde88"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre35@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2209834,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/cfm-7.0.0-pre35-1.19.2.jar",
+            "MD5": "cd3ceae9615012f62d84fa1af860a1b0"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.10.31@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203525,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/chat_heads-0.10.31-forge-1.19.2.jar",
+            "MD5": "c225ba9af77b4d2a9acfbc4998bc70af"
+          }
+        },
+        {
+          "id": "earth.terrarium:chipped:2.1.5@jar",
+          "name": "Chipped",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17313751,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/chipped-forge-1.19.2-2.1.5.jar",
+            "MD5": "4152fde1d156b2c05c42ad21ec39a2a3"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.1.4@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3063232,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/citadel-2.1.4-1.19.jar",
+            "MD5": "5271cd9beb2675bd9fd76ed14a66e763"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:8.3.115@jar",
+          "name": "Cloth Config v8 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1163389,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/cloth-config-8.3.115-forge.jar",
+            "MD5": "82d8057bdb2080bbc55bde62e07a25fe"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:9.0.0+14@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19083,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Clumps-forge-1.19.2-9.0.0+14.jar",
+            "MD5": "bdf6d74aadb9d5e5b0167a40ad0ad90d"
+          }
+        },
+        {
+          "id": "net.mcreator.clutteredmod:luphieclutteredmod:2.1@jar",
+          "name": "Cluttered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5954216,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/cluttered-2.1.1-1.19.2.jar",
+            "MD5": "9ace6a386ea97e905fe2b664dadc39a1"
+          }
+        },
+        {
+          "id": "com.natamus:collective:7.32@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 525723,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/collective-1.19.2-7.32.jar",
+            "MD5": "8f9297b8c6389f312e02a1ebd317b921"
+          }
+        },
+        {
+          "id": "corgitaco.corgilib:corgilib:1.0.0.34@jar",
+          "name": "CorgiLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285958,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/CorgiLib-forge-1.19.2-1.0.0.34.jar",
+            "MD5": "555af4f4904e6678ae44022009e909b9"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.19.2-1.3.6@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61734,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/coroutil-forge-1.19.2-1.3.6.jar",
+            "MD5": "0dbb313af302707144a2fd4695a05913"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.19.2-1.0.12@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 240877,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/corpse-forge-1.19.2-1.0.12.jar",
+            "MD5": "bb338c6c7c8d8d576c5371f7e902aa2a"
+          }
+        },
+        {
+          "id": "lain.mods.cos.init:cosmeticarmorreworked:1.19.2-v1a@jar",
+          "name": "CosmeticArmorReworked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87648,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/CosmeticArmorReworked-1.19.2-v1a.jar",
+            "MD5": "04e67c8f93e7121efb0b34d96db6370c"
+          }
+        },
+        {
+          "id": "com.tcn:cosmoslibrary:8.2.2.0@jar",
+          "name": "Cosmos Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1602073,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/cosmoslibrary-1.19.2-8.2.2.0-universal.jar",
+            "MD5": "ee93de6d3eba3d7c496dd045d43fc410"
+          }
+        },
+        {
+          "id": "com.tcn:cosmosportals:6.1.1.0@jar",
+          "name": "Cosmos Portals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 944655,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/cosmosportals-1.19.2-6.1.1.0-universal.jar",
+            "MD5": "7c9cd9431e058d1e9f0ce16446b94f28"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.f@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14913092,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/create-1.19.2-0.5.1.f.jar",
+            "MD5": "668b745f59e48c87ee4210ba8edb3993"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.19.2-1.2.2@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1516769,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/createaddition-1.19.2-1.2.2.jar",
+            "MD5": "59f444cbfd0fc38878b169ab423b4070"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.9.3@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 917084,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/CreativeCore_FORGE_v2.9.4_mc1.19.2.jar",
+            "MD5": "a38e11e6c304a0c54b0a0ada5d5d718e"
+          }
+        },
+        {
+          "id": "com.epherical:croptopia:2.2.2@jar",
+          "name": "Croptopia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1962724,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Croptopia-1.19.2-FORGE-2.2.2.jar",
+            "MD5": "b6b24de5e190dab0c87e3252a8a5b1ea"
+          }
+        },
+        {
+          "id": "team.chisel:ctm:1.19.2-1.1.6+8@jar",
+          "name": "ConnectedTexturesMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 194727,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/CTM-1.19.2-1.1.6+8.jar",
+            "MD5": "ab8156e2a8510422a1f740f214a34058"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.19.2-5.1.4.2@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 278407,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/curios-forge-1.19.2-5.1.4.2.jar",
+            "MD5": "1b55ed425e5b62ec8875954e9ca1d6d5"
+          }
+        },
+        {
+          "id": "com.tom:cpm:0.6.13a@jar",
+          "name": "Customizable Player Models",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2235584,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/CustomPlayerModels-1.19-0.6.13a.jar",
+            "MD5": "f62ac36f3c3292088bd6bac03a220379"
+          }
+        },
+        {
+          "id": "com.lothrazar:cyclic:1.19.2-1.8.2@jar",
+          "name": "Cyclic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4668612,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Cyclic-1.19.2-1.8.2.jar",
+            "MD5": "b10b5920314ee671ff56b379bd611174"
+          }
+        },
+        {
+          "id": "dev.isxander:debugify:1.1.0@jar",
+          "name": "Debugify Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 359664,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/debugify-1.1.0-forge-1.19.2.jar",
+            "MD5": "95c29018c85fedb1e57141caed1f9cc5"
+          }
+        },
+        {
+          "id": "generated.forgemod:decentholograms:2.8.5@jar",
+          "name": "DecentHolograms",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 587530,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/DecentHolograms-2.8.5.jar",
+            "MD5": "e7a795595e9553e090a99c8d7a44d9d0"
+          }
+        },
+        {
+          "id": "de.cristelknight.doapi:doapi:1.1.0b@jar",
+          "name": "Lets Do Api",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 366613,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/doapi-1.1.0b.jar",
+            "MD5": "7ce4758501b6917636efb2fc66818ec1"
+          }
+        },
+        {
+          "id": "net.mindoth:dreadsteel:1.19.2-1.1.6@jar",
+          "name": "Dreadsteel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 248878,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/dreadsteel-1.19.2-1.1.6.jar",
+            "MD5": "0e55c596d3dee4e5b3d1aae2353a1f9a"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.54-1.19.2@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6678694,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/DungeonsArise-1.19.2-2.1.54-release.jar",
+            "MD5": "69d2e0904c7a0b1e977e381a122bb1b9"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc:easy_npc:3.7.3@jar",
+          "name": "Bo's Easy NPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 978158,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/easy_npc_1.19.2-3.7.3.jar",
+            "MD5": "e2d8e265528026365d4f5c4ae8cde5e6"
+          }
+        },
+        {
+          "id": "xyz.vsngamer:elevatorid:1.19.2-1.8.9@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 187250,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/elevatorid-1.19.2-1.8.9.jar",
+            "MD5": "073b3361ce1fdd45e8b03c3c9a713d32"
+          }
+        },
+        {
+          "id": "com.hrznstudio:emojiful:4.0.5@jar",
+          "name": "Emojiful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 260759,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Emojiful-Forge-1.19.2-4.0.5-all%20(1).jar",
+            "MD5": "0dc5d349039bf0088bf59ebfa5429de3"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.5@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 665981,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/emotecraft-for-MC1.19.2-2.2.5-forge.jar",
+            "MD5": "76af6c94d9fd195e9a5c8eda3cdd8e4d"
+          }
+        },
+        {
+          "id": "net.mcreator.enemyexpproofofconcept:enemyexpansion:1.18@jar",
+          "name": "Enemy Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2767166,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/EnemyExpansion1.18-1.19.jar",
+            "MD5": "437362bfa132d6e05cd9f5d154f27da2"
+          }
+        },
+        {
+          "id": "insane96mcp.enhancedai:enhancedai:1.8.5@jar",
+          "name": "Enhanced AI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 336059,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/EnhancedAI-1.8.5-mc1.19.2.jar",
+            "MD5": "fddfa9541091e020fa50ef2d0511b7f3"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.1@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60289,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/entityculling-forge-1.6.1-mc1.19.2.jar",
+            "MD5": "094f1d0f3aad06ee4c5bb0c3f8a208d5"
+          }
+        },
+        {
+          "id": "com.cstav:evenmoreinstruments:3.0@jar",
+          "name": "Even More Instruments!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4078262,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/evenmoreinstruments-1.19.2-3.0%20(1).jar",
+            "MD5": "a85a1900575edcf44b12ddc96ab05476"
+          }
+        },
+        {
+          "id": "com.explorify:explorify:1.19-1.3.0@jar",
+          "name": "Explorify",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158066,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/explorify-forge-1.19-1.3.0.jar",
+            "MD5": "ff394caeab44563229c4e75156ec5706"
+          }
+        },
+        {
+          "id": "wily.factoryapi:factory_api:2.0@jar",
+          "name": "Factory API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 166963,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/FactoryAPI-1.19.2-2.0-forge.jar",
+            "MD5": "f87a321639c42d16f11cfaf98d305bfd"
+          }
+        },
+        {
+          "id": "me.paulf:fairylights:6.0.0@jar",
+          "name": "Fairy Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 816751,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/fairylights-6.0.0-1.19.2.jar",
+            "MD5": "a7f32292804a76d9e72075ac717a62aa"
+          }
+        },
+        {
+          "id": "tschipp.fakename:fakename:1.3.1@jar",
+          "name": "Fakename",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57558,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/fakename-1.19.2-1.3.1.jar",
+            "MD5": "3bd48c246806e7638bf0df37ea0ce02e"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:2.14.9@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1350173,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/fancymenu_forge_2.14.9_MC_1.19-1.19.2.jar",
+            "MD5": "77d3d3030f5a7a8e85564d510c2b8412"
+          }
+        },
+        {
+          "id": "xyz.apex.forge.fantasyfurniture.core:fantasyfurniture:6.7.0@jar",
+          "name": "Fantasy's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3215770,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/fantasyfurniture-1.19.2-6.7.0.jar",
+            "MD5": "d4b49008c7586cdc7cd3eeb9ed45bfa6"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.19.2-1.2.3@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2754721,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/FarmersDelight-1.19.2-1.2.3.jar",
+            "MD5": "7cda552f6eb7d51e0fd0d01937d311fd"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:5.0.3@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116824,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ferritecore-5.0.3-forge.jar",
+            "MD5": "c556facc604bd4fc0824c4524c73b9b9"
+          }
+        },
+        {
+          "id": "bre2el.fpsreducer:fpsreducer:1.19.2-2.1@jar",
+          "name": "FPS Reducer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123098,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/FpsReducer2-forge-1.19.2-2.1.jar",
+            "MD5": "eb3eacbd713dbd9b333cfa210a700a35"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:1902.4.1-build.236@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 603296,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ftb-library-forge-1902.4.1-build.236.jar",
+            "MD5": "ab990dddbef322a053b9812a44d4439f"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:1902.5.6-build.304@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1098788,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ftb-quests-forge-1902.5.6-build.304.jar",
+            "MD5": "df9ea1515c46355d38e933268421368a"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:1902.2.14-build.123@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220052,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ftb-teams-forge-1902.2.14-build.123.jar",
+            "MD5": "ce64d31414b490c35accc53c1c506c52"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.1.40@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2938383,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/geckolib-forge-1.19-3.1.40.jar",
+            "MD5": "99b50d68f49918186714abf7746f0249"
+          }
+        },
+        {
+          "id": "com.cstav:genshinstrument:3.4@jar",
+          "name": "Genshin Instruments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4209121,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/genshinstrument-1.19.2-3.4.jar",
+            "MD5": "70f2c04c70372f61334b80def2b34a3e"
+          }
+        },
+        {
+          "id": "generated.forgemod:geophilic:1.19-2.0.0c@jar",
+          "name": "Geophilic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 466765,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/geophilic-1.19-2.0.0c.jar",
+            "MD5": "4952e38a8fc24dd3348cfb1dbdc9194c"
+          }
+        },
+        {
+          "id": "com.natamus:grabbymobs:1.5@jar",
+          "name": "Grabby Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30836,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/grabbymobs-1.19.2-1.5.jar",
+            "MD5": "992f79eba36c586e50cb8d58b426fa86"
+          }
+        },
+        {
+          "id": "com.purplik:hat:1.4@jar",
+          "name": "Hats and Cosmetics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 122527,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/hats-and-cosmetics-1.4-1.19.2.jar",
+            "MD5": "0afc607038a695f10b67e3c1ce1ba9d6"
+          }
+        },
+        {
+          "id": "io.github.ohponopono:hoporp:1.3.3@jar",
+          "name": "HopoBetterRuinedPortals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 330323,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/HopoBetterRuinedPortals-[1.19-1.19.3]-1.3.3.jar",
+            "MD5": "8cfc457943e9d763427360e055e7cc0f"
+          }
+        },
+        {
+          "id": "dev.felnull.imp:iammusicplayer:3.19.10@jar",
+          "name": "Iam Music Player",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9942107,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/iammusicplayer-forge-mc1.19.2-3.19.10.jar",
+            "MD5": "4c01ee0ccbd56827e537814ec96080c4"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:1.19.2-2.1.13+build.beta-3@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21620315,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/iceandfire-1.19.2-2.1.13-beta-3.jar",
+            "MD5": "32d8f8ee56ecce9b923b5f51556a1a19"
+          }
+        },
+        {
+          "id": "com.craisinlord:idas:1.7.6+1.19.2@jar",
+          "name": "Integrated Dungeons and Structures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7518618,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/idas_forge-1.7.6+1.19.2.jar",
+            "MD5": "68ca54ee2ab270e4d6ea6f9af7aa1a68"
+          }
+        },
+        {
+          "id": "com.yellowbrossproductions:illageandspillage:1.2.4@jar",
+          "name": "Illage And Spillage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15094443,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/illageandspillage-1.19.2-1.2.4.jar",
+            "MD5": "38ab3d94a0ce1b08f6fc268674282ff2"
+          }
+        },
+        {
+          "id": "forge.net.raphimc:immediatelyfast:1.2.7+1.19.2@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 659234,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ImmediatelyFast-1.2.7+1.19.2.jar",
+            "MD5": "dfb548f5d14efea6fc243a2876f863f6"
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.2.10+1.19.2@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 392049,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ImmediatelyFast-Forge-1.2.10+1.19.2.jar",
+            "MD5": "e67e5c17c83c73ce1dd7d0a6b17c6e5c"
+          }
+        },
+        {
+          "id": "insane96mcp.insanelib:insanelib:1.7.5@jar",
+          "name": "InsaneLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 73851,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/InsaneLib-1.7.5-mc1.19.2.jar",
+            "MD5": "39b7c3b97c79f45179733d5887d023c2"
+          }
+        },
+        {
+          "id": "com.craisinlord:integrated_api:1.2.7+1.19.2@jar",
+          "name": "Integrated API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 196448,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/integrated_api_forge-1.2.7+1.19.2.jar",
+            "MD5": "469def88c47e8753bd28449df385958b"
+          }
+        },
+        {
+          "id": "com.inventorypets:inventorypets:2.0.19@jar",
+          "name": "Inventory Pets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7407816,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/inventorypets-1.19.2-2.0.19.jar",
+            "MD5": "64727c33d289f3339c8eff1f67e54c5e"
+          }
+        },
+        {
+          "id": "com.hexagram2021:ipp:2.0.0@jar",
+          "name": "Instrument++",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 445243,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ipp-2.0.0.jar",
+            "MD5": "d4b4e427c2199f773cb2b640de53f8ca"
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.19.2-14.2.7@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 295119,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ironchest-1.19.2-14.2.7.jar",
+            "MD5": "7e2cee5753aeb0c9013fba2d54d55e35"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:itemfilters:1902.2.9-build.51@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115504,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/item-filters-forge-1902.2.9-build.51.jar",
+            "MD5": "c1c9004b681fd6ac0527112f62c8e200"
+          }
+        },
+        {
+          "id": "com.github.alexthe668:iwannaskate:1.0.1@jar",
+          "name": "I Wanna Skate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1452813,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/iwannaskate-1.0.1.jar",
+            "MD5": "27083ae1d09c6dfa66c641a1c326d82f"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:8.9.1@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 428540,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Jade-1.19.1-forge-8.9.1.jar",
+            "MD5": "673ca73a58e460499454d9bcd2f14844"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:11.6.0.1018@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1090468,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1018.jar",
+            "MD5": "b470cd69dbce10060db0f51ec90dfb36"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.7@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7091512,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/journeymap-1.19.2-5.9.7-forge.jar",
+            "MD5": "617122169f0ed16dd79cd48978d0e9c8"
+          }
+        },
+        {
+          "id": "com.kreezcraft:justenoughcrowns:1.6.0@jar",
+          "name": "Just Enough Crowns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61098,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Just-Enough-Crowns-forge-1.19.2-1.6.0.jar",
+            "MD5": "688b876af5b993366e510e5da0dc174e"
+          }
+        },
+        {
+          "id": "com.blackapple769:justenoughdrugz:1.1.9@jar",
+          "name": "Just Enough Drugz",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 537525,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/JustEnoughDrugz1.19.2-1.1.9.jar",
+            "MD5": "b2b69d6e90a002ced9c65be0b5f653c6"
+          }
+        },
+        {
+          "id": "de.keksuccino:justzoom:1.0.1@jar",
+          "name": "Just Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7849,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/justzoom_forge_1.0.1-1_MC_1.19.jar",
+            "MD5": "ae41761622ccb21c157f786685ec0d2b"
+          }
+        },
+        {
+          "id": "net.keebsz:keebszs_battle_towers:0.5.0-1.19@jar",
+          "name": "Keebsz's Battle Towers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1566901,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/keebszs_battle_towers-0.5.0-1.19.x.jar",
+            "MD5": "c12296e6cb1c6adb8d6ad47edb44a881"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.6.1@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 628968,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/konkrete_forge_1.6.1_MC_1.19-1.19.2.jar",
+            "MD5": "6171d50320f243ed78eac8bcb57e5382"
+          }
+        },
+        {
+          "id": "net.mcreator.customitens:custom_itens:1.0.0@jar",
+          "name": "Custom Itens",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 254310,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/lcustomitems.jar",
+            "MD5": "2904aed03df6349db77750b8cd9d204e"
+          }
+        },
+        {
+          "id": "satisfy.bakery:bakery:1.0.6@jar",
+          "name": "Bakery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1649227,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/letsdo-bakery-forge-1.0.6.jar",
+            "MD5": "48539e0eb05510c5568442fca2ac9329"
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:libraryferret:4.0.0@jar",
+          "name": "Library ferret",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 189524,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/libraryferret-forge-1.19.2-4.0.0.jar",
+            "MD5": "be2fbde49976bfcbb633bf2e9d18f2c6"
+          }
+        },
+        {
+          "id": "com.ccr4ft3r:lightspeed:1.19.2-1.1.0@jar",
+          "name": "Lightspeed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 50521,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/lightspeed-1.19.2-1.0.5.jar",
+            "MD5": "13e6f30aab7cf8ee21533ff09f31f541"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.4.25.66@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 326437,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/lootr-1.19-0.4.25.66.jar",
+            "MD5": "b7c58efa7bccf4fd49c0f4816f7f0bbe"
+          }
+        },
+        {
+          "id": "stepsword.mahoutsukai:mahoutsukai:1.19.2-v1.34.61@jar",
+          "name": "Mahou Tsukai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3992751,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mahoutsukai-1.19.2-v1.34.61.jar",
+            "MD5": "2cd75cfe0e93d1dfec640575287a30db"
+          }
+        },
+        {
+          "id": "net.montoyo.mcef:forgecef:1.2.5@jar",
+          "name": "MCEF",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 395062,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mcef-1.2.5.jar",
+            "MD5": "54cd59ffca34be8e156392697e120a5f"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:2.1.1@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 682195,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mcw-bridges-2.1.1-mc1.19.2forge.jar",
+            "MD5": "aeeb17cc3ddd069bff9af484585f2202"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.1.0@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1081340,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mcw-doors-1.1.0forge-mc1.19.2.jar",
+            "MD5": "1559df0b417648fcfce18e3a476b299a"
+          }
+        },
+        {
+          "id": "com.mcwfences.kikoz:mcwfences:1.0.7@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 349410,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mcw-fences-1.0.7-mc1.19.2forge.jar",
+            "MD5": "14ed100a49c14ab40e900334a7fda62c"
+          }
+        },
+        {
+          "id": "com.mcwlights.kikoz:mcwlights:1.0.5@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 334228,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mcw-lights-1.0.5-mc1.19.2forge.jar",
+            "MD5": "e704208545585fa4702d0ef0a40f7026"
+          }
+        },
+        {
+          "id": "com.mcwpaintings.kikoz:mcwpaintings:1.0.4@jar",
+          "name": "Macaw's Paintings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60731,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mcw-paintings-1.0.4-mc1.19.2.jar",
+            "MD5": "d13608b460447493d0192f66ead9a882"
+          }
+        },
+        {
+          "id": "com.mcwroofs.kikoz:mcwroofs:2.2.4@jar",
+          "name": "Macaw's Roofs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1681307,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mcw-roofs-2.2.4-mc1.19.2forge.jar",
+            "MD5": "cdeb55a0fba1b93c1e60e486def3d5df"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:2.2.1@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1125803,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mcw-windows-2.2.1-mc1.19.2forge.jar",
+            "MD5": "c4b56616735b846e72e94800e9b93fc5"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.1@jar",
+          "name": "Melody",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37177,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/melody_forge_1.0.1_MC_1.19.2.jar",
+            "MD5": "5b5bc4c0667325cca81e526289df6faf"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227925,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/memoryleakfix-forge-1.17+-1.1.5.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
+          }
+        },
+        {
+          "id": "me.hypherionmc:mmode:1.1.1@jar",
+          "name": "Maintenance Mode",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1242149,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mmode-forge-1.19-1.1.1.jar",
+            "MD5": "8ac5abc74c26add0e1a3661c084ca868"
+          }
+        },
+        {
+          "id": "com.finndog:mns:1.0.0-1.19.2-forge@jar",
+          "name": "Moog's Nether Structures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1635432,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mns-1.0.0-1.19.2-forge.jar",
+            "MD5": "5f20fc54365175b3165ac68289539276"
+          }
+        },
+        {
+          "id": "net.mcreator.moadecortoys:moa_decor_toys:1.19.2@jar",
+          "name": "MOA DECOR: TOYS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1109716,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/MOAdecor%20TOYS%201.19.2.jar",
+            "MD5": "52490df60dd52c6c16ae5d8e0b17c28d"
+          }
+        },
+        {
+          "id": "mob_grinding_utils:mob_grinding_utils:1.19.2-0.4.50@jar",
+          "name": "Mob Grinding Utils",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1350594,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/mob_grinding_utils-1.19.2-0.4.50.jar",
+            "MD5": "52f82453efc8e4c3d51b75346864d310"
+          }
+        },
+        {
+          "id": "insane96mcp.mobspropertiesrandomness:mobspropertiesrandomness:4.2.3@jar",
+          "name": "Mobs Properties Randomness",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136040,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/MobsPropertiesRandomness-4.2.3-mc1.19.2.jar",
+            "MD5": "8905da10f0b54c3b4bbecef92eac9628"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.10.0+mc1.19.2@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 704622,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/modernfix-forge-5.10.0+mc1.19.2.jar",
+            "MD5": "85eb09b0ee4ce5153e2f00f40585ea86"
+          }
+        },
+        {
+          "id": "com.dairymoose.modernlife.core:modernlife:1.19.2-1.59@jar",
+          "name": "Modern Life",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4184231,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/modernlife-1.19.2-1.59.jar",
+            "MD5": "3a04a53813c4c87704bf0b4b65c53358"
+          }
+        },
+        {
+          "id": "com.klikli_dev:modonomicon:1.34.0@jar",
+          "name": "Modonomicon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2044654,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/modonomicon-1.19.2-1.34.0.jar",
+            "MD5": "9dd580147f07c508f21edb44f41ec01d"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.19.2-2.3.5@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 868380,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/moonlight-1.19.2-2.3.5-forge.jar",
+            "MD5": "a96b3656cce9e724a4eca562a7736ac1"
+          }
+        },
+        {
+          "id": "de.melanx:morevanillaarmor:1.19.1-4.1.1@jar",
+          "name": "MoreVanillaArmor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 229312,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/MoreVanillaArmor-1.19.1-4.1.1.jar",
+            "MD5": "70afd9483b7c8ae840432410130d4c47"
+          }
+        },
+        {
+          "id": "com.supermartijn642:movingelevators:1.4.6@jar",
+          "name": "Moving Elevators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 320395,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/movingelevators-1.4.6-forge-mc1.19.jar",
+            "MD5": "965a921476d2d0c1cdfe4b41ab55c299"
+          }
+        },
+        {
+          "id": "com.starfish_studios:naturalist:4.0.2@jar",
+          "name": "Naturalist",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3477120,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/naturalist-forge-4.0.2-1.19.2.jar",
+            "MD5": "469f8fa482e403a06d87633f33dc427e"
+          }
+        },
+        {
+          "id": "net.blay09.mods:netherportalfix:10.0.1@jar",
+          "name": "NetherPortalFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 216681,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/netherportalfix-forge-1.19-10.0.1.jar",
+            "MD5": "8f3d4e86dad9fe2b80eb1c1bdb570508"
+          }
+        },
+        {
+          "id": "umpaz.nethersdelight:nethersdelight:1.19-3.1@jar",
+          "name": "Nether's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 344436,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/NethersDelight-1.19-3.1.jar",
+            "MD5": "505bdfac61f75df19c9acab092f0351d"
+          }
+        },
+        {
+          "id": "com.nosiphus.furniture:nfm:2023.12.09@jar",
+          "name": "Nosiphus Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1381680,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/nfm-2023.12.09-1.19.2.jar",
+            "MD5": "b58f2bdc24bbfb63a7cad71498d21172"
+          }
+        },
+        {
+          "id": "fudge.notenoughcrashes:notenoughcrashes:4.2.1+1.19.2@jar",
+          "name": "Not Enough Crashes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 154959,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/notenoughcrashes-4.2.1+1.19.2-forge.jar",
+            "MD5": "a582dde1800304fb04e1cb02c64ea12d"
+          }
+        },
+        {
+          "id": "com.obscuria.obscureapi:obscure_api:15@jar",
+          "name": "Obscure API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 964152,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/obscure_api-15.jar",
+            "MD5": "fad9871533c751a9d6afad3180113cf4"
+          }
+        },
+        {
+          "id": "potionstudios.byg:byg:2.0.1.6@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37226223,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Oh_The_Biomes_Youll_Go-forge-1.19.2-2.0.1.6.jar",
+            "MD5": "cf8cc653f3712d48c54c0a673e34ec3e"
+          }
+        },
+        {
+          "id": "net.darkhax:openloader:15.0.1@jar",
+          "name": "OpenLoader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21654,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/OpenLoader-Forge-1.19.2-15.0.1.jar",
+            "MD5": "d45332b28d39e6d9d0a9dc46580196b6"
+          }
+        },
+        {
+          "id": "com.duke:orcz:0.82@jar",
+          "name": "Orcz",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2425333,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Orcz_0.85_1.19.2[PORT].jar",
+            "MD5": "35d362022fae176ad62b9a535a005d45"
+          }
+        },
+        {
+          "id": "io.github.apace100:origins:1.19.2-1.7.1.3@jar",
+          "name": "Origins",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1934732,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/origins-forge-1.19.2-1.7.1.3-all.jar",
+            "MD5": "a018d303c86543adb6380696e22cb685"
+          }
+        },
+        {
+          "id": "dev.felnull:otyacraftengine:3.2.0@jar",
+          "name": "Otyacraft Engine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 647211,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/otyacraftengine-forge-mc1.19.2-3.2.0.jar",
+            "MD5": "1db46e193f22c4d598470d0ed793612d"
+          }
+        },
+        {
+          "id": "com.unlikepaladin:pfm:1.1.1@jar",
+          "name": "Paladin's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5365257,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/paladin-furniture-mod-1.1.1-forge-mc1.19.jar",
+            "MD5": "660aaa8b20a32e919f7c6d75da0bb3d6"
+          }
+        },
+        {
+          "id": "tictim.paraglider:paraglider:1.7.0.5@jar",
+          "name": "Paraglider",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382706,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Paraglider-1.19.2-1.7.0.5.jar",
+            "MD5": "db911a2b12ce98f645dfbbb717d19217"
+          }
+        },
+        {
+          "id": "com.alrex:parcool:1.19.2-3.1.0.6-R@jar",
+          "name": "ParCool!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 608284,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/ParCool-1.19.2-3.1.0.6-R.jar",
+            "MD5": "58cd1eacdab7d4a22bab7460237aad85"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.19.2-77@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 635370,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Patchouli-1.19.2-77.jar",
+            "MD5": "5727784bad9e215a74a64107c1e45036"
+          }
+        },
+        {
+          "id": "virtuoel.pehkui:pehkui:3.7.11+1.19.2-forge@jar",
+          "name": "Pehkui",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 471769,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Pehkui-3.7.11+1.19.2-forge.jar",
+            "MD5": "99c9180d4750c6a04dff3feb4001f739"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:7.3.4@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 248755,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Placebo-1.19.2-7.3.4.jar",
+            "MD5": "2f610c86b94a55604a06b7e16d990276"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181297,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/player-animation-lib-forge-1.0.2.jar",
+            "MD5": "32be10092ee8672a2e3a36a019007a96"
+          }
+        },
+        {
+          "id": "team.creative:playerrevive:2.0.14@jar",
+          "name": "PlayerRevive",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5291957,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/PlayerRevive_FORGE_v2.0.14_mc1.19.2.jar",
+            "MD5": "80adee29e1acd489ed926850100af2bf"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:3.4-418@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15024651,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Quark-3.4-418.jar",
+            "MD5": "3cac1bb0a53b47bd7dec351b6d675de7"
+          }
+        },
+        {
+          "id": "net.regions_unexplored:regions_unexplored:0.5.3@jar",
+          "name": "Regions Unexplored",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5138913,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/RegionsUnexploredForge-0.5.3+1.19.2.jar",
+            "MD5": "94d8778a6b816c19d7fbcfc7d14074d6"
+          }
+        },
+        {
+          "id": "reliquary:reliquary:1.19.2-2.0.20.1166@jar",
+          "name": "Reliquary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2151312,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/reliquary-1.19.2-2.0.20.1166.jar",
+            "MD5": "8187a2538dca5863dc154192950e76ff"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefulconfig:1.0.20@jar",
+          "name": "Resourcefulconfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 133629,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/resourcefulconfig-forge-1.19.2-1.0.20.jar",
+            "MD5": "ad468a8664448a52cc49e52b34208dd0"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:1.1.24@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231039,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/resourcefullib-forge-1.19.2-1.1.24.jar",
+            "MD5": "dd9aba7d4744ae995b67980ee814ef13"
+          }
+        },
+        {
+          "id": "xxrexraptorxx.additionalstructures.main:additionalstructures:4.0.4@jar",
+          "name": "Additional Structures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1493535,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Rex's-AdditionalStructures-1.19.x-(v.4.0.4)%20(1).jar",
+            "MD5": "72f74c7caf34d0e3bdcaa0201600d32a"
+          }
+        },
+        {
+          "id": "com.focamacho:ringsofascension:1.0.0@jar",
+          "name": "Rings of Ascension",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 137331,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/RingsOfAscension-1.19-1.0.1.jar",
+            "MD5": "f4e85582940bd954efcd9155447cbf1d"
+          }
+        },
+        {
+          "id": "com.github.teamfusion:rottencreatures:1.0.1@jar",
+          "name": "Rotten Creatures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 392547,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/rottencreatures-forge-1.19.2-1.0.1.jar",
+            "MD5": "7111c9c4e35789e0bac096675b04b918"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:rubidium_extra:0.4.19+mc1.19.2-build.105@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317160,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/rubidium-extra-0.4.19+mc1.19.2-build.105.jar",
+            "MD5": "625cd59e097bd63998d08c418a715fdc"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.2c@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1407451,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/rubidium-mc1.19.2-0.6.2c.jar",
+            "MD5": "b9d54d5171598463ef4456083eeb3ce8"
+          }
+        },
+        {
+          "id": "com.wynprice.secretrooms:secretroomsmod:1.19.2-1.2.0@jar",
+          "name": "Secret Rooms 6",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242509,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/secretrooms-1.19.2-1.2.0.jar",
+            "MD5": "ec0cefd2f73838bf311e071291b3c4af"
+          }
+        },
+        {
+          "id": "net.mindoth:shadowizardlib:1.19.2-1.0.8@jar",
+          "name": "ShadowizardLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27142,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/shadowizardlib-1.19.2-1.0.8.jar",
+            "MD5": "60fa7f761f3216a0c05d819e518d945c"
+          }
+        },
+        {
+          "id": "fonnymunkey.simplehats:simplehats:1.19.2-0.1.6@jar",
+          "name": "SimpleHats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1094362,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/simplehats-forge-1.19.2-0.1.6.jar",
+            "MD5": "2ad7efbff0f2457d33ce92f7d6da9f3f"
+          }
+        },
+        {
+          "id": "net.tslat:smartbrainlib:1.9@jar",
+          "name": "SmartBrainLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 313501,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/SmartBrainLib-forge-1.19.2-1.9.jar",
+            "MD5": "47a7de5b0e9fe0b30e4f5a7ef38ff865"
+          }
+        },
+        {
+          "id": "net.mcreator.sonsofsins:sons_of_sins:2.1.5.@jar",
+          "name": "Sons of Sins",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4290453,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/sons-of-sins-1.19.2-2.1.5b.jar",
+            "MD5": "83ddab206e98431865522e892481958a"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.19.2-3.18.63.934@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 782886,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/sophisticatedbackpacks-1.19.2-3.18.63.934.jar",
+            "MD5": "3a1679492333e08da7147d8a65e80e8a"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.19.2-0.5.98.459@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 995584,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/sophisticatedcore-1.19.2-0.5.98.459.jar",
+            "MD5": "bb966f321ce3dba0990acbfe782be260"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.10.37@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2976410,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/spark-1.10.37-forge.jar",
+            "MD5": "571b1510bd5f6d37f7fbfd2bede7f46f"
+          }
+        },
+        {
+          "id": "net.stardustlabs:structory:1.0.1@jar",
+          "name": "Structory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1383551,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Structory-1.19-v1.3.jar",
+            "MD5": "d2c0c84b30e0a09ff6a546fc2c63cd22"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206591,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.19.jar",
+            "MD5": "1aa9fde0dbdaa57b98ba5f404de46efe"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.15@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 479509,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/supermartijn642corelib-1.1.15-forge-mc1.19.2.jar",
+            "MD5": "7f8ad5beb0c51183a2558e9f3f1d5183"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.19.2-2.4.7@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14945275,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/supplementaries-1.19.2-2.4.7.jar",
+            "MD5": "c2e8472bcd079e85a8ecec4723ccb279"
+          }
+        },
+        {
+          "id": "com.izofar:takesapillage:1.0.3@jar",
+          "name": "It Takes A Pillage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3758527,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/takesapillage-1.0.3-1.19.2.jar",
+            "MD5": "f5a8e6dc8c992a507dac129e1f715a05"
+          }
+        },
+        {
+          "id": "io.github.flemmli97:tenshilib:1.19.2-1.6.15@jar",
+          "name": "TenshiLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 447634,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/tenshilib-1.19.2-1.6.15-forge.jar",
+            "MD5": "70c313ce97f93852e388e4da4054e416"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:2.0.1.136@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96499,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/TerraBlender-forge-1.19.2-2.0.1.136.jar",
+            "MD5": "ed2fe6eb99f5d399db71e71f209de2ac"
+          }
+        },
+        {
+          "id": "net.stardustlabs:terralith:2.3.12@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2990344,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Terralith_1.19.3_v2.3.12.jar",
+            "MD5": "874142f5a20f0e6ea8fc1d406f4ee58c"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods:reeses_sodium_options:1.0.7-mc1.19.2@jar",
+          "name": "TexTrue's Rubidium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212100,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/TextruesRubidiumOptions-1.0.7-mc1.19.2.jar",
+            "MD5": "a248359c110f22e6a3e7fffc6111849e"
+          }
+        },
+        {
+          "id": "net.mcreator:thedirtystuff:1.3@jar",
+          "name": "TheDirtyStuff",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 649876,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/TheDirtyStuff_1.19.2_v.1.3.jar",
+            "MD5": "0852c0fa4194b91b69f355e0cbeedd3c"
+          }
+        },
+        {
+          "id": "org.tlauncher:tlskincape:1.30@jar",
+          "name": "TLSkinCape",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 684523,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/tl_skin_cape_forge_1.19_1.19.2-1.30.jar",
+            "MD5": "e4ae8092b7d030567b433e43ed117c9f"
+          }
+        },
+        {
+          "id": "com.tom.storagemod:toms_storage:1.5.9@jar",
+          "name": "Tom's Simple Storage Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511593,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/toms_storage-1.19-1.5.9.jar",
+            "MD5": "b79011ff3abae3e7694c3d7ddfff5abc"
+          }
+        },
+        {
+          "id": "de.cristelknight999:t_and_t:1.10@jar",
+          "name": "Towns and Towers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2822026,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Towns-and-Towers-v.1.10-_FORGE-1.19.2_.jar",
+            "MD5": "4a45683cf0b701b720ad10b4c0b2692c"
+          }
+        },
+        {
+          "id": "net.mcreator:undead_unleashed:1.1.0@jar",
+          "name": "Undead Unleashed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2073800,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/UndeadUnleashed-1.1.1-1.19.2.jar",
+            "MD5": "52390241e8ebc73568933a22303b4464"
+          }
+        },
+        {
+          "id": "com.stereowalker:unionlib:9.0.4.1@jar",
+          "name": "UnionLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 360821,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/UnionLib-1.19.2-9.0.4.1-Forge.jar",
+            "MD5": "a5a11d3cde1f4b13b987744aa6abac86"
+          }
+        },
+        {
+          "id": "untamedwilds:untamedwilds:3.0.4@jar",
+          "name": "Untamed Wilds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3037538,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/untamedwilds-1.19.2-3.0.4.jar",
+            "MD5": "dc29b87e8a2cd80242963560f793cc28"
+          }
+        },
+        {
+          "id": "net.valhelsia.valhelsia_core.core:valhelsia_core:1.19.2-0.5.0@jar",
+          "name": "Valhelsia Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 702728,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/valhelsia_core-forge-1.19.2-0.5.0.jar",
+            "MD5": "efd90af3378eadb475fb1d413a72422b"
+          }
+        },
+        {
+          "id": "net.valhelsia:valhelsia_furniture:1.19.2-1.1.1@jar",
+          "name": "Valhelsia Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4036980,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/valhelsia_furniture-forge-1.19.2-1.1.1.jar",
+            "MD5": "5dca1866da36f18091a5b29c734ebc85"
+          }
+        },
+        {
+          "id": "com.stal111.valhelsia_structures.core:valhelsia_structures:1.19.2-1.0.4@jar",
+          "name": "Valhelsia Structures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2557234,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/valhelsia_structures-forge-1.19.2-1.0.4.jar",
+            "MD5": "4780bddc541ee8f2dcccfc2368e9de04"
+          }
+        },
+        {
+          "id": "redstonedubstep.mods.vanishmod:vmod:1.1.15@jar",
+          "name": "Vanishmod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55238,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/Vanishmod-1.19.2-1.1.15.jar",
+            "MD5": "d7b247a047786950b86cf00e8e02558a"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:veinmining:1.1.2+1.19.2@jar",
+          "name": "Vein Mining",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 166494,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/veinmining-forge-1.1.2+1.19.2.jar",
+            "MD5": "f3ee4516d48f0f8465e08d2251f7ce6d"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.19.2-2.4.28@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8095504,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/voicechat-forge-1.19.2-2.4.28.jar",
+            "MD5": "9117df75844a529bbe6f79b967c5ad29"
+          }
+        },
+        {
+          "id": "nalex.wafflesplaceablefoods:wafflesplaceablefoods:0.1.4@jar",
+          "name": "Waffle's Placeable Foods",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 174158,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/wafflesplaceablefoods-0.1.4-FORGE1.19.2.jar",
+            "MD5": "754c002d78c6ca24d4b564a6d4d2fdd0"
+          }
+        },
+        {
+          "id": "me.srrapero720:waterframes:1.3.1e@jar",
+          "name": "WaterFrames",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 141301,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/waterframes-1.19.2-1.3.1e.jar",
+            "MD5": "a7228d0d98b4a662fb38bf22d77947bf"
+          }
+        },
+        {
+          "id": "me.srrapero720.watermedia.core:watermedia:1.3.43@jar",
+          "name": "WaterMedia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37840250,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/watermedia-1.3.43.jar",
+            "MD5": "e3dbc07f750a46aaf56eb4505f137faa"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.19.2-1.0.14@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162555,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/watut-forge-1.19.2-1.0.14.jar",
+            "MD5": "ccb8322313173892c7d14c69c69fa237"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:11.4.1@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 409028,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/waystones-forge-1.19.2-11.4.1.jar",
+            "MD5": "10ed429e1ab45aa62beb3a2230b8de42"
+          }
+        },
+        {
+          "id": "net.montoyo.wd:webdisplays:1.3.3@jar",
+          "name": "WebDisplays",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 790605,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/webdisplays-1.3.3.jar",
+            "MD5": "ca1c0e258a8ccad31223cf757ba1d028"
+          }
+        },
+        {
+          "id": "com.minecraftserverzone:weirdmobs:3.0.2@jar",
+          "name": "YDM's WeirdMobs mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2327750,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/weirdmobs-forge-1.19-41.0.100-3.0.2.jar",
+            "MD5": "9fa7c4febf38c08ee2a1c89c613d0919"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.12+6240-87f4ae1@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5650155,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/worldedit-mod-7.2.12.jar",
+            "MD5": "35923b44d8e81af4cb310b578f689b73"
+          }
+        },
+        {
+          "id": "de.z0rdak:yawp:0.0.2.9-beta3@jar",
+          "name": "Yet Another World Protector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 400428,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/yawp-1.19.2-0.0.2.9-beta3-forge.jar",
+            "MD5": "3971d1940a7c073cff9b42ca823c0d4c"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.19.2-Forge-3.8.10@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 293336,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsApi-1.19.2-Forge-3.8.10.jar",
+            "MD5": "d49eb0504b00d99320588c681535dcc3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.19.2-Forge-2.2.2@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 986299,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar",
+            "MD5": "94d1f62e9247c0f9ffe4aca5eb2eaad5"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.19.2-Forge-3.2.2@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 997998,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsBetterDungeons-1.19.2-Forge-3.2.2.jar",
+            "MD5": "23c0c4dda050b0ac7b3893f6081d925d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterjungletemples:1.19.2-Forge-1.0.1@jar",
+          "name": "YUNG's Better Jungle Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1268117,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsBetterJungleTemples-1.19.2-Forge-1.0.1.jar",
+            "MD5": "a53333f9c22cc4d9171f5d522c10ef76"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.19.2-Forge-3.2.1@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 273478,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar",
+            "MD5": "e33f9e1cd9936cd6371f759f15470d9d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.19.2-Forge-1.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 820449,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar",
+            "MD5": "6bd55703a87dd8493412bca8bbfc459e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.19.2-Forge-2.1.1@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1510053,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsBetterOceanMonuments-1.19.2-Forge-2.1.1.jar",
+            "MD5": "4cd617cda5ec5159825b5af4be82bbdc"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.19.2-Forge-3.2.0@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 409767,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar",
+            "MD5": "daa46493c03703aa9f6994548b43518f"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterwitchhuts:1.19.2-Forge-2.1.0@jar",
+          "name": "YUNG's Better Witch Huts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241850,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar",
+            "MD5": "352e986c69027ba98cff3f87d8358fcc"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsextras:1.19.2-Forge-3.1.0@jar",
+          "name": "YUNG's Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 406444,
+            "url": "https://github.com/Shisuiicaro/servers/Laru_SMP-1.19.2/forgemods/required/YungsExtras-1.19.2-Forge-3.1.0.jar",
+            "MD5": "95e19cc18b2ff87e2138100ef077e849"
+          }
+        }
+      ]
+    }
+  ]
+}
